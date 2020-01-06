@@ -1,0 +1,66 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.site-wrapper
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+header .header-inner
+{
+	
+	text-align: center;
+	
+}
+
+header .menu .main-menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #008000;
+	width: 1200px;
+
+}
+.menu .main-menu li{
+	
+}
+.menu .main-menu li a{
+	background-color: #008000;
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	margin: 0 1px;
+
+}
+.menu .main-menu li a:hover {
+	background-color: tomato;
+}
+.menu{
+	/*position: fixed;*/
+
+}
+.menu-item{
+	float: left;
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #c6dffb;
+ margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+th {
+  background-color: #e3eefb;
+  color: #006600;
+}
